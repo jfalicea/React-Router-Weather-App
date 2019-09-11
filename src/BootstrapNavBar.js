@@ -7,7 +7,7 @@ class BootstrapNavBar extends Component{
         <nav className="navbar navbar-default navbar-top">
             <div className="container-fluid">
                 <div className="navbar-header">
-                    <Link className="navbar-brand" to="#">Jonathan's Weather</Link>
+                    <Link className="navbar-brand" to="/">Jonathan's Weather</Link>
                 </div>
                 <ul className="nav navbar-nav">
                     <li><Link to="/">Home</Link></li>
