@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class About extends Component {
+class Atlanta extends Component {
 	constructor(props) {
 		super(props);
 		this.state={
@@ -26,10 +26,9 @@ class About extends Component {
 		return(
 			<div>
 				<h1>Real-time Atlanta Weather!</h1>
-
 			</div>
 		);
 	}
 }
 
-export default About;
+export default Atlanta;

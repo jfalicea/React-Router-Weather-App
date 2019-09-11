@@ -1,6 +1,15 @@
+import React from 'react';
+
 function Images(props){
-	// Map through images
+	const atlPicArray = props.pics.map((pic)=>{
+		return <img src={pic} />
+	})
+	// console.log(atlPicArray)
 	return(
-		<p>Images go here as props</p>
+		<div>
+			{atlPicArray}
+		</div>
 	)
 }
+
+export default Images;
